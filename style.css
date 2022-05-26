@@ -1,0 +1,271 @@
+@font-face{font-family:BacktoSchool;
+src:url(./fonts/Backtoschool.ttf)format('truetype');
+}
+
+@font-face{font-family:kidknowledges1;
+src:url(./fonts/KidKnowledges1-Wx84.otf)format('opentype');
+}
+
+@font-face{font-family:kidknowledges1outline;
+src:url(./fonts/KidKnowledges1Outline-ergg.otf)format('opentype');
+}
+
+@font-face {font-family: 'Poppins', sans-serif;
+src: url('./fonts/Poppins/Poppins-Black.ttf')format('truetype');
+}
+
+#bannerImg, header {
+    width: auto;
+    max-height: 27vh;
+}
+
+.nav li {
+margin-top: 1.3rem;
+font-size: 1.2rem;
+margin-bottom: 1rem;
+}
+
+#frontFeaturette {
+margin-right: 0px; 
+margin-bottom: 0px; 
+height: 25vh;
+}
+
+#site-tagline {
+font-family: kidknowledges1;
+font-size: 3.45rem;
+margin-top: -.75em;
+letter-spacing: 1.35px;
+font-variant: small-caps;
+font-weight: 100;
+color: black;
+display: block; 
+}
+
+#site-title {
+font-family: BacktoSchool;
+letter-spacing: .15rem;
+font-weight: 700;
+color: #f10c0c;
+font-size: 6.5rem; 
+margin-top: 10px; 
+margin-bottom: 40px; 
+overflow-wrap: break-word;
+}
+
+.pencil {
+font-family: BacktoSchool;
+letter-spacing: .15rem;
+font-weight: 700;
+text-align: center; 
+}
+
+#frontFeaturette.row.featurette div.col-md-7 div, #frontFeaturette.row {
+  --bs-gutter-x: 0;
+  width: 100%; 
+}
+
+.topDivider1 {
+margin-top: -1px; 
+margin-bottom: 0px; 
+}
+
+body {
+  padding-top: 2rem;
+}
+
+.containerMarketing {
+  background: #0f073f;
+  color: white; 
+}
+
+.btn.btn-warning {
+  color: #fff;
+  border: white 3px solid;
+  background: #f1bc31;
+  font-weight: 700;
+  border-radius: 25px; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-warning:hover, .btn-warning:focus {
+font-weight: 700;
+border: solid 3px rgba(183, 179, 206, 0.25);
+background: rgba(15, 7, 63, 0.35);
+box-shadow: 0 1rem 3rem rgba(0,0,0,.35);
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+
+
+/* EXTRA DELETE 
+#myCarousel2.carousel.slide .carousel-inner div.carousel-item {
+height: 40rem; 
+}
+
+.carousel-caption img 
+*/
+
+#myCarousel2 .vignette {
+	-webkit-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4);
+	-moz-box-shadow:    inset 0px 0px 85px rgba(0,0,0,0.4);
+	box-shadow:         inset 0px 0px 85px rgba(0,0,0,0.4);
+	line-height: 0;         
+	display: inline-block;  
+  border-radius: 25px; 
+}
+
+
+#myCarousel2 .vignette img {
+	position: relative; 
+	z-index: -1;           
+  border-radius: 25px; 
+}
+
+div.StartHereConsult:nth-child(2) > div:nth-child(1) ul li, .StartHereConsult h3, .StartHereConsult h2 {
+  width: 100%;
+  text-align: center;
+  color: black; 
+}
+
+.StartHereConsult h2 {
+font-family: BacktoSchool;
+letter-spacing: .15rem;
+font-weight: 200;
+margin-top: 5%;
+}
+
+.StartHereConsult h3 {
+font-family: 'kidknowledges1';
+margin-top: 2%;
+}
+
+
+.BottomHalfSolutions {
+padding-top: 0;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+justify-content: center;
+min-height: auto;
+border-width: 0;
+border-style: solid;
+border-color: #000;
+border-radius: 0;
+width: 67vw;
+max-width: 70vw;
+margin-left: calc(50% - 35vw);
+margin-right: calc(50% - 35vw);
+display: flex;
+flex-basis: 100%;
+position: relative;
+flex-wrap: nowrap;
+}
+
+.BottomHalfSolutions ul {
+display: inline-block; 
+}
+
+.container-lg, .container-md, .container-sm, .container {
+  width:100%;
+}
+
+.StartHereConsult ul li {
+list-style-type: circle;
+color: black; 
+text-align: left;
+ font-family: Poppins, Arial, Helvetica, sans-serif;
+  margin-top: 1%;
+  font-weight: 400; 
+  font-size: 1.3rem;
+}
+
+
+
+div.flex-items:nth-child(1), div.flex-items:nth-child(2) {
+  margin-right: 4rem;
+  padding-right: 4rem;
+  width: 85%;
+}
+
+.schedulicity-embed-mobile {
+ display: block;
+}
+
+.schedulicity-embed > iframe, .schedulicity-embed-mobile, .schedulicity-embed {
+margin-top: 2rem; 
+}
+
+#profilePhoto img {
+box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+display: inline-block;
+text-align: center;
+margin-left: 65%;
+margin-top: 65%;
+width: 38%;
+min-width: unset;
+}
+
+.meetDeniseRow {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-right: 0;
+border-width: 0;
+border-style: solid;
+border-color: #000;
+border-radius: 0;
+color: black; 
+margin-left: 3rem; 
+width: 50%;
+font-family: Poppins, Arial, Helvetica, sans-serif;
+font-size: 16px; 
+line-height: 31px; 
+}
+
+#wp-block-themeisle-blocks-advanced-heading-783e06bb {
+font-family: BacktoSchool;
+letter-spacing: .15rem;
+font-weight: 200;
+text-align: center;
+color: #8dc99f;
+line-height: 55px;
+padding: 0;
+margin-top: 0;
+margin-bottom: 30px;
+}
+
+.wp-block-pullquote {
+margin-top: 30px;
+margin-bottom: 30px;
+border-top: 4px solid black;
+border-bottom: 4px solid black;
+padding: 30px 20px;
+text-align: center;
+overflow-wrap: break-word;
+box-sizing: border-box;
+margin: 0 0 1em;
+}
+
+.wp-block-pullquote > blockquote:nth-child(1) > p:nth-child(1) {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 26px; 
+}
+
+.block-16 {
+  text-align: center;
+   font-family: Poppins, Arial, Helvetica, sans-serif;
+   padding-right: 15px;
+padding-left: 15px;
+margin: 8px 0px; 
+}
